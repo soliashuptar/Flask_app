@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_ad159e501de24df2b00491bc8b79d494 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_ad159e501de24df2b00491bc8b79d494" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_ad159e501de24df2b00491bc8b79d494 = L.map(
+        'map_ad159e501de24df2b00491bc8b79d494', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_08c94b87f884488eb19a1465bb48a571 = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_ad159e501de24df2b00491bc8b79d494);
+    
+            var feature_group_8a2bef9c072c46939118f0e17b70d328 = L.featureGroup(
+                ).addTo(map_ad159e501de24df2b00491bc8b79d494);
+        
+    
+            var circle_marker_47fe4204ff4942d68e2a5d17ce98d568 = L.circleMarker(
+                [51.5073219, -0.1276474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_8a2bef9c072c46939118f0e17b70d328);
+            
+    
+            var popup_f1bbae808bb0408f8b9404e2e4b42ffd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_769864f2d3a24566bdfd95de7379d4d2 = $(`<div id="html_769864f2d3a24566bdfd95de7379d4d2" style="width: 100.0%; height: 100.0%;">BBCScienceNews</div>`)[0];
+                popup_f1bbae808bb0408f8b9404e2e4b42ffd.setContent(html_769864f2d3a24566bdfd95de7379d4d2);
+            
+
+            circle_marker_47fe4204ff4942d68e2a5d17ce98d568.bindPopup(popup_f1bbae808bb0408f8b9404e2e4b42ffd)
+            ;
+
+            
+        
+    
+            var circle_marker_c9e86669117e45758249efb7129b75c7 = L.circleMarker(
+                [38.8950092, -77.0365625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_8a2bef9c072c46939118f0e17b70d328);
+            
+    
+            var popup_6aaa75efda78445a804b42f5a29563c2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_df7c7c3257cd4292b5d4430425d8692e = $(`<div id="html_df7c7c3257cd4292b5d4430425d8692e" style="width: 100.0%; height: 100.0%;">sciencemagazine</div>`)[0];
+                popup_6aaa75efda78445a804b42f5a29563c2.setContent(html_df7c7c3257cd4292b5d4430425d8692e);
+            
+
+            circle_marker_c9e86669117e45758249efb7129b75c7.bindPopup(popup_6aaa75efda78445a804b42f5a29563c2)
+            ;
+
+            
+        
+    
+            var circle_marker_aad3ac87fd7d4ed0b06840310cd65dae = L.circleMarker(
+                [53.45733965, -2.22695880505223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_8a2bef9c072c46939118f0e17b70d328);
+            
+    
+            var popup_540f5c3b5b454b0384ee40dec79e73d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_806b90120fc647d7becf343a50d3d916 = $(`<div id="html_806b90120fc647d7becf343a50d3d916" style="width: 100.0%; height: 100.0%;">NatureNews</div>`)[0];
+                popup_540f5c3b5b454b0384ee40dec79e73d3.setContent(html_806b90120fc647d7becf343a50d3d916);
+            
+
+            circle_marker_aad3ac87fd7d4ed0b06840310cd65dae.bindPopup(popup_540f5c3b5b454b0384ee40dec79e73d3)
+            ;
+
+            
+        
+    
+            var layer_control_b45be0843d824c4897a2b1cc20b30d22 = {
+                base_layers : { "mapboxbright" : tile_layer_08c94b87f884488eb19a1465bb48a571, },
+                overlays : { "Locations of friends" : feature_group_8a2bef9c072c46939118f0e17b70d328, }
+                };
+            L.control.layers(
+                layer_control_b45be0843d824c4897a2b1cc20b30d22.base_layers,
+                layer_control_b45be0843d824c4897a2b1cc20b30d22.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_ad159e501de24df2b00491bc8b79d494);
+            
+        
+</script>
